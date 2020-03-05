@@ -33,6 +33,7 @@ export default {
     CHANNEL_ADMIN_ROLE: 'channel_admin',
     SYSTEM_GUEST_ROLE: 'system_guest',
     SYSTEM_USER_ROLE: 'system_user',
+    SYSTEM_VISITOR_ROLE: 'system_visitor',
     SYSTEM_ADMIN_ROLE: 'system_admin',
     SYSTEM_USER_ACCESS_TOKEN_ROLE: 'system_user_access_token',
     SYSTEM_POST_ALL_ROLE: 'system_post_all',

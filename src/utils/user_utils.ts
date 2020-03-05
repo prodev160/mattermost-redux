@@ -55,6 +55,10 @@ export function isGuest(roles: string): boolean {
     return rolesIncludePermission(roles, 'system_guest');
 }
 
+export function isVisitor(roles: string): boolean {
+    return rolesIncludePermission(roles, General.SYSTEM_VISITOR_ROLE);
+}
+
 export function isTeamAdmin(roles: string): boolean {
     return rolesIncludePermission(roles, General.TEAM_ADMIN_ROLE);
 }
